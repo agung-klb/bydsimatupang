@@ -1,0 +1,37 @@
+# robots.txt untuk BYD Simatupang
+# https://bydsimatupang.com/robots.txt
+
+# Izinkan semua bot untuk mengakses seluruh situs
+User-agent: *
+Allow: /
+
+# Larang akses ke folder/file tertentu (jika ada)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+
+# Izinkan akses ke file CSS dan JS untuk rendering yang lebih baik
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Izinkan akses ke gambar
+Allow: /assets/images/
+
+# Izinkan akses ke brochure PDF (opsional - bisa di-disallow jika tidak ingin di-index)
+Allow: /assets/brochures/
+
+# Lokasi Sitemap
+Sitemap: https://bydsimatupang.com/sitemap.xml
+
+# Bot-specific rules (opsional)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (opsional - hanya jika server terbatas)
+# Crawl-delay: 1

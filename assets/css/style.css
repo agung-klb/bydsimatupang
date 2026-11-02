@@ -1,0 +1,23 @@
+/* Custom Styles untuk Map Dark Mode filter */
+.map-dark {
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+/* Hide scrollbar for gallery but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hero-gradient {
+    background: linear-gradient(to bottom, rgba(11, 15, 25, 0.3) 0%, rgba(11, 15, 25, 1) 100%);
+}
+
+/* Custom Date/Time Input Icon Color for Dark Mode */
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
